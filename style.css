@@ -1,6 +1,10 @@
 @font-face {
-    font-family: 'SeoulHangangCondensed-Light';
+    font-family: 'Seoul-Light';
     src: url("fonts/SeoulHangangCondensed-Light.ttf");
+}
+@font-face {
+    font-family: 'Seoul-Black';
+    src: url("fonts/SeoulNamsanCondensed-Black.ttf");
 }
 
 * {
@@ -51,15 +55,15 @@ body {
 
 .logo {
     margin-top: 50px;
-    font-family: 'SeoulHangangCondensed-Light';
+    font-family: 'Seoul-Black';
     margin-bottom: 0px;
 }
 
 .subtitle {
     margin-bottom: 38px;
-    margin-bottom: 0px;
+    margin-right: 3px;
     font-size: 16.5px;
-    font-family: 'SeoulHangangCondensed-Light';
+    font-family: 'Seoul-Light';
 
 }
 
@@ -75,7 +79,7 @@ body {
     margin-top: 30px;
     font-size: 80px;
 
-    height: 83px;
+    height: 75px;
 }
 
 .presentation h5 {
@@ -116,6 +120,8 @@ body {
     border: none;
     outline: none;
     border-radius: 14px;
+
+    font-family: 'Snigglet';
 }
 
 .fa-gamepad {
