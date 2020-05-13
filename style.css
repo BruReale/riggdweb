@@ -6,6 +6,10 @@
     font-family: 'Seoul-Black';
     src: url("fonts/SeoulNamsanCondensed-Black.ttf");
 }
+@font-face {
+    font-family: 'Sniglet';
+    src: url("fonts/Sniglet-Regular.ttf");
+}
 
 * {
     margin: 0;
@@ -121,11 +125,16 @@ body {
     outline: none;
     border-radius: 14px;
 
-    font-family: 'Snigglet';
+    font-family: 'Sniglet';
+    font-size: 19px;
 }
 
 .fa-gamepad {
     font-size: 30px;
+}
+
+.fa-poll {
+    margin-right: 13px;
 }
 
 
