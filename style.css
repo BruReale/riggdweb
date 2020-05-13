@@ -60,7 +60,7 @@ body {
 .logo {
     margin-top: 50px;
     font-family: 'Seoul-Black';
-    margin-bottom: 0px;
+    margin-bottom: 46px;
 }
 
 .subtitle {
@@ -104,7 +104,7 @@ body {
     font-family: 'Roboto';
     width: 450px;
     font-style: normal;
-    letter-spacing: -1.50px;
+    
     font-weight: 500;
     font-size: 22px;
     line-height: 140.69%;
@@ -118,6 +118,8 @@ body {
 .button-poll {
     width: 322px;
     height: 67px;
+
+    margin-top: 16px;
 
     background-color: #E7396A;
     color: white;
@@ -155,22 +157,43 @@ body {
 
 .nav-list-social {
 	list-style: none;
-	width: 100%;
+	width: 284px;
 	height: 100%;
 	display: inline-flex;
 	justify-content: space-around;
-	align-items: center;
+    align-items: center;
+    margin-top: 61px;
+}
+.nav-list-social li {
+    margin: 0 28.5px;
 }
 
 .socia-media {
 	margin-top: 5rem;
 	padding: 0;
 }
+.nav-list-social .social-icon-dis {
+    margin-top: 5px;
+}
 
-.social-media i{
+.social-media img{
 	font-size: 5rem;
 	transition: color 650ms;
 }
 
+.socia-icon-ig:hover {
+    color: linear-gradient(violet, yellow, pink);
+}
+.socia-icon-dis:hover {
+    color: violet;
+}
+.socia-icon-wp:hover {
+    color: green;
+}
+
+.footer {
+    margin-top: 20px;
+    font-family: 'Roboto';
+}
 
 
