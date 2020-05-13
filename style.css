@@ -1,109 +1,131 @@
+@font-face {
+    font-family: 'SeoulHangangCondensed-Light';
+    src: url("fonts/SeoulHangangCondensed-Light.ttf");
+}
+
 * {
-  margin: 0;
-  padding: 0;
+    margin: 0;
+    padding: 0;
 }
 
 body {
-  width: 100%;
-  height: 100%;
-  background: url("bg.png") no-repeat fixed;
-  font-family: 'Roboto';
-  background-size: cover;
+    width: 100%;
+    height: 100%;
+    background: url("bg.png") no-repeat fixed;
+    font-family: 'Roboto';
+    background-size: cover;
 }
 
+
 .container {
-  width: 100%;
-  height: 100%;
-  margin: 0;
-  padding: 0;
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
 }
 
 .box {
-  width: 614px;
-  height: 665px;
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  margin: auto;
-  background: -o-linear-gradient(324.33deg, #F1E6E6 -16.64%, #FCFCFC 10.26%, #FEFDFD 70.26%, #F5F5F5 102.01%);
-  background: linear-gradient(125.67deg, #F1E6E6 -16.64%, #FCFCFC 10.26%, #FEFDFD 70.26%, #F5F5F5 102.01%);
-  -webkit-box-shadow: 0px 2.76726px 2.21381px rgba(0, 0, 0, 0.0196802), 0px 6.6501px 5.32008px rgba(0, 0, 0, 0.0282725), 0px 12.5216px 10.0172px rgba(0, 0, 0, 0.035), 0px 22.3363px 17.869px rgba(0, 0, 0, 0.0417275), 0px 41.7776px 33.4221px rgba(0, 0, 0, 0.0503198), 0px 100px 80px rgba(0, 0, 0, 0.07);
-  box-shadow: 0px 2.76726px 2.21381px rgba(0, 0, 0, 0.0196802), 0px 6.6501px 5.32008px rgba(0, 0, 0, 0.0282725), 0px 12.5216px 10.0172px rgba(0, 0, 0, 0.035), 0px 22.3363px 17.869px rgba(0, 0, 0, 0.0417275), 0px 41.7776px 33.4221px rgba(0, 0, 0, 0.0503198), 0px 100px 80px rgba(0, 0, 0, 0.07);
-  border-radius: 19px;
-<<<<<<< HEAD
+    width: 614px;
+    height: 665px;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    background: -o-linear-gradient(324.33deg, #F1E6E6 -16.64%, #FCFCFC 10.26%, #FEFDFD 70.26%, #F5F5F5 102.01%);
+    background: linear-gradient(125.67deg, #F1E6E6 -16.64%, #FCFCFC 10.26%, #FEFDFD 70.26%, #F5F5F5 102.01%);
+    -webkit-box-shadow: 0px 2.76726px 2.21381px rgba(0, 0, 0, 0.0196802), 0px 6.6501px 5.32008px rgba(0, 0, 0, 0.0282725), 0px 12.5216px 10.0172px rgba(0, 0, 0, 0.035), 0px 22.3363px 17.869px rgba(0, 0, 0, 0.0417275), 0px 41.7776px 33.4221px rgba(0, 0, 0, 0.0503198), 0px 100px 80px rgba(0, 0, 0, 0.07);
+    box-shadow: 0px 2.76726px 2.21381px rgba(0, 0, 0, 0.0196802), 0px 6.6501px 5.32008px rgba(0, 0, 0, 0.0282725), 0px 12.5216px 10.0172px rgba(0, 0, 0, 0.035), 0px 22.3363px 17.869px rgba(0, 0, 0, 0.0417275), 0px 41.7776px 33.4221px rgba(0, 0, 0, 0.0503198), 0px 100px 80px rgba(0, 0, 0, 0.07);
+    border-radius: 19px;
+
 }
 
-.presentation {
-  margin: 0;
-  padding: 0;
-  justify-content: center;
-  text-align: center;
+.section {
+    margin: 0;
+    padding: 0;
+    justify-content: center;
+    text-align: center;
+    align-content: center;
 }
 
 .logo {
-  margin-bottom: 0px;
+    margin-top: 50px;
+    font-family: 'SeoulHangangCondensed-Light';
+    margin-bottom: 0px;
 }
 
 .subtitle {
-  margin-bottom: 0px;
-=======
+    margin-bottom: 38px;
+    margin-bottom: 0px;
+    font-size: 16.5px;
+    font-family: 'SeoulHangangCondensed-Light';
+
 }
 
 .presentation {
-  margin: 0;
-  padding: 0;
-  justify-content: center;
-  text-align: center;
->>>>>>> master
+    margin: 0;
+    padding: 0;
+    justify-content: center;
+    text-align: center;
+
 }
 
 .presentation h1 {
-  margin-top: 30px;
-  font-size: 80px;
-<<<<<<< HEAD
-  height: 83px;
+    margin-top: 30px;
+    font-size: 80px;
+
+    height: 83px;
 }
 
 .presentation h5 {
-  margin-top: 0px;
-=======
+    margin-top: 0px;
+
+
 }
 
 .presentation h5 {
-  margin-top: 0;
->>>>>>> master
-  font-size: 16.5px;
-}
+    margin-top: 0;
 
-.presentation p {
-<<<<<<< HEAD
-
+    font-size: 16.5px;
 }
 
 .descripcion {
-  margin-top: 30px;
-  font-family: Roboto;
-  font-style: normal;
-  font-weight: 500;
-  font-size: 22px;
-  line-height: 140.69%;
-  text-align: center;
-  color: #686868;
-=======
-  color: #686868;
-  margin-top: 30px;
->>>>>>> master
+    margin-top: 30px;
+    margin: 0px 80px;
+    font-family: 'Roboto';
+    width: 450px;
+    font-style: normal;
+    letter-spacing: -1.50px;
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 140.69%;
+    text-align: center;
+    color: #686868;
+
+    color: #686868;
+    margin-top: 30px;
+
+}
+.button-poll {
+    width: 322px;
+    height: 67px;
+
+    background-color: #E7396A;
+    color: white;
+    border: none;
+    outline: none;
+    border-radius: 14px;
 }
 
 .fa-gamepad {
-  font-size: 30px;
+    font-size: 30px;
 }
-<<<<<<< HEAD
+
 
 .emoji {
-  margin: 13px;
+    margin: 13px;
 }
-=======
->>>>>>> master
+
+
+
