@@ -172,19 +172,19 @@ body {
 	margin-top: 5rem;
 	padding: 0;
 }
-.nav-list-social .social-icon-dis {
-    margin-top: 5px;
-}
 
-.social-media img{
-	font-size: 5rem;
+
+.social-media i{
+    font-size: 5rem;
 	transition: color 650ms;
 }
 
-.socia-icon-ig:hover {
+
+
+.fa-instagram:hover {
     color: linear-gradient(violet, yellow, pink);
 }
-.socia-icon-dis:hover {
+.fa-discord:hover {
     color: violet;
 }
 .socia-icon-wp:hover {
