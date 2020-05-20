@@ -1,22 +1,16 @@
 @font-face {
-    font-family: 'Seoul-Light';
-    src: url("fonts/SeoulHangangCondensed-Light.ttf");
+    font-family: 'Panton-bold';
+    src: url("fonts/Panton-Bold.otf");
 }
-@font-face {
-    font-family: 'Seoul-Black';
-    src: url("fonts/SeoulNamsanCondensed-Black.ttf");
-}
-@font-face {
-    font-family: 'Sniglet';
-    src: url("fonts/Sniglet-Regular.ttf");
-}
+
 
 * {
     margin: 0;
     padding: 0;
+    font-family: 'Panton-bold';
 }
 
-body:before {
+/* body:before {
 	content:"";
 	position:fixed;
 	left:0;
@@ -26,15 +20,17 @@ body:before {
 	z-index:-1; 
 	background:#D8D8D8;
 	background: linear-gradient(299.23deg, rgb(255, 138, 152) 0%, rgb(255, 215, 228) 100%);
-}
+} */
 
 body {
     width: 100%;
     height: 100%;
-    /* background: url("bg.png") no-repeat fixed; */
-    background-image: linear-gradient(299.23deg, rgb(255, 138, 152) 0%, rgb(255, 215, 228) 100%);
-    font-family: 'Roboto';
-    /* background-size: cover; */
+
+
+    background-image: url('bg.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
 }
 
 
@@ -46,8 +42,8 @@ body {
 }
 
 .box {
-    width: 614px;
-    height: 665px;
+    width: 660px;
+    height: 685px;
     position: absolute;
     top: 0;
     bottom: 0;
@@ -58,10 +54,18 @@ body {
     background: linear-gradient(125.67deg, #F1E6E6 -16.64%, #FCFCFC 10.26%, #FEFDFD 70.26%, #F5F5F5 102.01%);
     -webkit-box-shadow: 0px 2.76726px 2.21381px rgba(0, 0, 0, 0.0196802), 0px 6.6501px 5.32008px rgba(0, 0, 0, 0.0282725), 0px 12.5216px 10.0172px rgba(0, 0, 0, 0.035), 0px 22.3363px 17.869px rgba(0, 0, 0, 0.0417275), 0px 41.7776px 33.4221px rgba(0, 0, 0, 0.0503198), 0px 100px 80px rgba(0, 0, 0, 0.07);
     box-shadow: 0px 2.76726px 2.21381px rgba(0, 0, 0, 0.0196802), 0px 6.6501px 5.32008px rgba(0, 0, 0, 0.0282725), 0px 12.5216px 10.0172px rgba(0, 0, 0, 0.035), 0px 22.3363px 17.869px rgba(0, 0, 0, 0.0417275), 0px 41.7776px 33.4221px rgba(0, 0, 0, 0.0503198), 0px 100px 80px rgba(0, 0, 0, 0.07);
-    border-radius: 19px;
+    /* border-radius: 19px; */
 
     z-index: -1;
 
+}
+
+.border {
+    position: absolute;
+    width: 93%;
+    height: 93%;
+    justify-content: center;
+    margin: 20px 5px 5px 20px;
 }
 
 .section {
@@ -74,15 +78,17 @@ body {
 
 .logo {
     margin-top: 50px;
-    font-family: 'Seoul-Black' 'Roboto';
     margin-bottom: 46px;
+}
+
+.logoOBJ {
+    width: 250px;
 }
 
 .subtitle {
     margin-bottom: 38px;
     margin-right: 3px;
     font-size: 16.5px;
-    font-family: 'Seoul-Light' 'Roboto';
 
 }
 
@@ -114,9 +120,7 @@ body {
 }
 
 .descripcion {
-    margin-top: 30px;
-    margin: 0px 80px;
-    font-family: 'Roboto';
+    margin: 0px 80px 0px 100px;
     width: 450px;
     font-style: normal;
 
@@ -130,11 +134,17 @@ body {
     margin-top: 30px;
 
 }
+
+.joinText {
+    color: #2E2B6E; 
+    margin-top: 40px;
+}
+
 .button-poll {
     width: 322px;
     height: 67px;
 
-    margin-top: 16px;
+    margin-top: 30px;
 
     background-color: #E7396A;
     color: white;
@@ -142,7 +152,6 @@ body {
     outline: none;
     border-radius: 14px;
 
-    font-family: 'Sniglet' 'Roboto';
     font-size: 19px;
 
     transition: 0.25s;
@@ -231,6 +240,5 @@ body {
 .footer {
     margin-top: 17px;
     margin-bottom: 20px;
-    font-family: 'Roboto';
     font-size: 14px;
 }
