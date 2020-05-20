@@ -74,7 +74,7 @@ body {
 
 .logo {
     margin-top: 50px;
-    font-family: 'Seoul-Black';
+    font-family: 'Seoul-Black' 'Roboto';
     margin-bottom: 46px;
 }
 
@@ -82,7 +82,7 @@ body {
     margin-bottom: 38px;
     margin-right: 3px;
     font-size: 16.5px;
-    font-family: 'Seoul-Light';
+    font-family: 'Seoul-Light' 'Roboto';
 
 }
 
@@ -142,7 +142,7 @@ body {
     outline: none;
     border-radius: 14px;
 
-    font-family: 'Sniglet';
+    font-family: 'Sniglet' 'Roboto';
     font-size: 19px;
 
     transition: 0.25s;
